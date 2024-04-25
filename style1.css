@@ -1,12 +1,13 @@
 body {
     margin-top: 20px;
     text-align: center;
-    background-color: #b134eb;
     font-size: 15px;
     background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJ0M2hvczZ3aGd4YzE5NW9yODl2Zmw3dHI5MHgxbGdncjJlOXZ5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r2DZ7c7zrY1jO/giphy.gif);
     color: rgb(255, 255, 255);
-   
+    background-color: rgb(52, 235, 134);
+
 }
+
 .list-1 {
     display: table;
     margin-right: auto;
@@ -18,19 +19,21 @@ body {
 
 .btn-battery {
     display: block;
-   background: green;
-   padding-right: 20px;
-   padding-left:20px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   border-radius: 20px;
-   border: 5px solid black;
-   
-     
+    background: green;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+
+
 }
-  .btn-battery:hover {
+
+.btn-battery:hover {
     background-color: rgb(230, 13, 13);
 }
+
 .btn-acc {
     display: block;
     margin: 20px;
@@ -41,23 +44,26 @@ body {
     border: 3px solid blue;
     border-radius: 50px;
 }
+
 .btn-acc:hover {
     background-color: black;
     color: white;
     font-size: large;
 }
 
-.boat1  {
+.boat1 {
     width: 400px;
 }
+
 .input-login {
     display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     width: 400px;
     border: 2px solid green;
     padding: 20px;
 }
+
 .img-div {
     display: flex;
     justify-content: space-around;
