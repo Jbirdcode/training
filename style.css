@@ -1,0 +1,22 @@
+#boat1 {
+    height: 400px;
+    width: 400px;
+}
+button {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    border: 8px solid black;
+}
+button:hover {
+    background-color: salmon;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    text-align: center;
+}
