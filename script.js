@@ -31,3 +31,19 @@ function changeTextColor() {
         body.style.color = "rgb(255, 255, 255)"
     }
 }
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("increment")
+let count = 0
+
+function add() {
+    count = count + 1
+    countEl.innerText = count
+    
+}
+
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0
+}
